@@ -1,24 +1,54 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello React Rails  app 
+Theis app is built in order to implement a connection between a Ruby on Rails back-end and React front-end. And to understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
 
-Things you may want to cover:
+## Getting Started
+- clone the repository
+`git clone https://github.com/selma-belhadj/hello-react-rails.git`
+- navigate to the folder
+`cd BlogApp`
+- checkout the feature
+`git checkout development
+- Install packages
+`bundle install`
+- Setup database
+`rails db:setup`
+- Run migration
+`rails db:migrate`
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Ruby on Rails version (_6.1.6_)
+- PostgreSQL
+- React
 
-* Configuration
+## Authors
 
-* Database creation
+👤 **Selma Belhadj**
 
-* Database initialization
+- GitHub: [@selma-belhadj](https://github.com/selma-belhadj)
+- Twitter: [@Bel_Selma16](https://twitter.com/Bel_Selma16)
+- LinkedIn: [@selma-belhadj](https://www.linkedin.com/in/selma-belhadj/)
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🤝 Contributing
 
-* Deployment instructions
+Contributions, issues, and feature requests are welcome!
 
-* ...
+Feel free to check the [issues page](https://github.com/selma-belhadj/hello-react-rails/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
