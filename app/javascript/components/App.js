@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import configureStore from '../redux/configureStore';
 
-import HelloWolrd from './HelloWorld';
+import Greeting from './Greeting';
+
 
 const store = configureStore();
 
@@ -13,7 +14,7 @@ class App extends React.Component {
       <Provider store={store}>
         <BrowserRouter>
           <Routes>
-              <Route path='/hello' element={<HelloWolrd greeting='Friend' />} />
+              <Route path='/hello' element={<Greeting greeting='Friend' />} />
           </Routes>
         </BrowserRouter>
       </Provider>
