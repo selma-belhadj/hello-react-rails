@@ -12,3 +12,5 @@ Greeting.create(text: 'Salam from Algeria')
 Greeting.create(text: 'Hallo from Germany')
 Greeting.create(text: 'Ciao from Italy')
 Greeting.create(text: 'Hola from Spain')
+Greeting.create(text: 'Bite from Rwanda')
+
